@@ -1,0 +1,31 @@
+{
+  "artist": "Frumpies",
+  "auth": "Logged In",
+  "firstName": "Anabelle",
+  "gender": "F",
+  "itemInSession": 0,
+  "lastName": "Simpson",
+  "length": 134.47791,
+  "level": "free",
+  "location": "Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",
+  "method": "PUT",
+  "page": "NextSong",
+  "registration": 1541044398796.0,
+  "sessionId": 455,
+  "song": "Fuck Kitty",
+  "status": 200,
+  "ts": 1541903636796,
+  "userAgent": "\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36\"",
+  "userId": "69"
+}
+
+num_songs: 1
+artist_id: "ARGSJW91187B9B1D6B"
+artist_latitude: 35.21962
+artist_longitude: -80.01955
+artist_location: "North Carolina"
+artist_name: "JennyAnyKind"
+song_id: "SOQHXMF12AB0182363"
+title: "Young Boy Blues"
+duration: 218.77506
+year: 0
