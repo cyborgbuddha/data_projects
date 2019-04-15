@@ -1,19 +1,19 @@
-
+```
    ____              __    _ ___     ___  ___ 
   / __/__  ___ _____/ /__ (_) _/_ __/ _ \/ _ )
  _\ \/ _ \/ _ `/ __/  '_// / _/ // / // / _  |
 /___/ .__/\_,_/_/ /_/\_\/_/_/ \_, /____/____/ 
    /_/                       /___/            
-
+```
 
 Sparkify the music streaming app outputs a lot of ugly data that we need to gather some insight from. To make this work, we need to giver a good ETL. Here's the deets:
 
 
 
-##Star Schema
+## Star Schema
 
-###Fact Table
-####songplays 
+### Fact Table
+#### songplays 
 - records in log data associated with song plays i.e. records with page "NextSong"
     songplay_id, 
     start_time, 
@@ -25,8 +25,8 @@ Sparkify the music streaming app outputs a lot of ugly data that we need to gath
     location, 
     user_agent
 
-###Dimension Tables
-####d_users  
+### Dimension Tables
+#### d_users  
 - users in the app
     user_id, 
     first_name, 
@@ -34,7 +34,7 @@ Sparkify the music streaming app outputs a lot of ugly data that we need to gath
     gender, 
     level
 
-####d_songs 
+#### d_songs 
 - songs in music database
     song_id, 
     title, 
@@ -42,7 +42,7 @@ Sparkify the music streaming app outputs a lot of ugly data that we need to gath
     year, 
     duration
 
-####d_artists 
+#### d_artists 
 - artists in music database
     artist_id, 
     name, 
@@ -50,7 +50,7 @@ Sparkify the music streaming app outputs a lot of ugly data that we need to gath
     lattitude, 
     longitude
 
-####d_time 
+#### d_time 
 - timestamps of records in songplays broken down into specific units
     start_time, 
     hour, 
