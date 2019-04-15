@@ -6,7 +6,9 @@
    /_/                       /___/            
 ```
 
-Sparkify the music streaming app outputs a lot of ugly data that we need to gather some insight from. To make this work, we need to giver a good ETL. Here's the deets:
+__SparkifyDB__ is a __Relational Database Management System__ designed to convert raw user and event logs from the Sparkify music streaming app into a series of tables optimized for analysts to query.
+
+The raw data is outputted in json dictionaries 
 
 
 
