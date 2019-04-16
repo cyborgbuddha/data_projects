@@ -24,7 +24,7 @@ The logs are converted into a __Star Schema__ using __Python__ and __PostgreSQL_
 
 ## Star Schema <a name="starschema"></a>
 
-![SparkifyDBStarSchema](https://github.com/cyborgbuddha/data_projects/SparkifyDB%20RDBMS/SparkifyDB.png "SparkifyDBERD")
+![SparkifyDBStarSchema](https://github.com/cyborgbuddha/data_projects/blob/master/SparkifyDB%20RDBMS/Sparkify%20DB.png?raw=true "SparkifyDBERD")
 
 
 ### Fact Table
@@ -44,7 +44,7 @@ _records in log data associated with song plays i.e. records with page "NextSong
 |`user_agent`| User's device information | |
 
 ### Dimension Tables <a name="dimtables"></a>
-## d_users   <a name="d_users_"></a>
+## d_users   <a name="d_users"></a>
 _users in the app_
 
 |Column|Description|Notes|
@@ -89,3 +89,4 @@ _timestamps of records in songplays broken down into specific units_
 |`month`| Month that song was played||
 |`year`| Year that song was played||
 |`weekday`| Day of week song was played||
+
